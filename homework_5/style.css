@@ -1,0 +1,90 @@
+* {
+    
+    font-family: "KyivTypeTitling";  
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+    transition: all 0.3s ease;
+
+}
+
+.header-block__h1 {
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    text-shadow: -3px 4px 6px #000000a6;
+
+    }  
+
+.header-block {
+    
+    margin-top: 0;
+    background-image: url(./thanos-pal-qEEBmRCRSJI-unsplash\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    height: 100px;
+    
+}
+
+.column-left {
+
+    border-right: 2px solid rgb(177, 177, 177);
+    padding: 10px;
+    width: 20%;
+    margin-right: 30px;
+    position: fixed;
+    min-width: 70px;
+    
+
+}
+
+a {
+
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    left: 50%;
+    font-size: large;
+
+}
+
+.book {
+
+    width: 70%;
+    margin: 20px;
+    position: relative;
+    left: 20%;
+    
+
+}
+
+.book-symbol {
+
+    background-color: rgb(200, 200, 200);
+    position: sticky;
+    top: 20px;
+
+}
+
+.book-box__items {
+
+    list-style: none;
+
+}
+
+@font-face {
+    font-family: "KyivTypeTitling"; 
+    src: url("./KyivTypeTitling-VarGX.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+    
