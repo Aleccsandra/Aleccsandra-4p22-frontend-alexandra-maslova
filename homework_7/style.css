@@ -129,7 +129,7 @@ body {
         position: absolute;
         top: calc(260 / 1440 * 100vw);
         left: calc(45 / 1440 * 100vw);
-        width: calc(312 / 1440 * 100vw);
+        width: calc(350 / 1440 * 100vw);
         height: calc(24 / 1440 * 100vw);
         font-size: calc(14 / 1440 * 100vw);
     }
