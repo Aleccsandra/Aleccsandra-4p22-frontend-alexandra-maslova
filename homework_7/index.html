@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <title>Form</title>
+    </head>
+    <body>
+        <main>
+            <div class="block">
+                <div class="block__heading">
+                    <h1>Вход</h1>
+                </div>
+                <form class="form" action="#">
+                    <div class="form__mail">
+                        <label for="mail">Email</label>
+                        <input type="mail" id="mail" name="mail" placeholder="Введите email" autocomplete="off" />
+                    </div>
+                    <div class="form__password">
+                        <label for="password">Пароль</label>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Введите пароль"
+                            autocomplete="off"
+                        />
+                    </div>
+                    <div class="form__checkbox">
+                        <input type="checkbox" id="checkbox" name="check" value="TRUE" autocomplete="off" />
+                        <label for="checkbox">Я согласен получать обновления на почту</label>
+                    </div>
+                    <button class="form__button">Войти</button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
