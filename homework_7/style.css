@@ -171,7 +171,7 @@ body {
     .form__checkbox label::after {
 
         content: '';
-        background: url(./pngegg.png) no-repeat;
+        background: url(./img/pngegg.png) no-repeat;
         background-size: 100% 100%;
         position: absolute;
         top: calc(-8 / 1440 * 100vw);;
@@ -348,7 +348,6 @@ body {
         font-weight: 400;
         color: #787878;
         font-family: 'Roboto-R';
-        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);;
 
     }
 
@@ -363,14 +362,13 @@ body {
         left: 0;
         width: calc(28 / 768 * 100vw);
         height: calc(28 / 768 * 100vw);
-        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
         
     }
 
     .form__checkbox label::after {
 
         content: '';
-        background: url(./pngegg.png) no-repeat;
+        background: url(./img/pngegg.png) no-repeat;
         background-size: 100% 100%;
         position: absolute;
         top: calc(-8 / 768 * 100vw);;
@@ -410,7 +408,7 @@ body {
 @font-face {
 
     font-family: "Roboto"; 
-    src: url("./Roboto-Bold.ttf") format("truetype"); 
+    src: url("./fonts/Roboto-Bold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 
@@ -419,7 +417,7 @@ body {
 @font-face {
 
     font-family: "Roboto-R"; 
-    src: url("./Roboto-Regular.ttf") format("truetype"); 
+    src: url("./fonts/Roboto-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 } 
